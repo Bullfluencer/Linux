@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Index.html">os</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+                </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Opdrachten
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="opdracht1.html">opdracht 1</a></li>
+                  <li><a class="dropdown-item" href="opdracht2.html">opdracht 2</a></li>
+                  <li><a class="dropdown-item" href="opdracht3.html">opdracht 3</a></li>
+                  <li><a class="dropdown-item" href="opdracht4.html">opdracht 4</a></li>
+                  <li><a class="dropdown-item" href="opdracht5.html">opdracht 5</a></li>
+                  <li><a class="dropdown-item" href="opdracht6.html">opdracht 6</a></li>
+                  <li><a class="dropdown-item" href="opdracht7.html">opdracht 7</a></li>
+                  <li><a class="dropdown-item" href="opdracht8.html">opdracht 8</a></li>
+                  <li><a class="dropdown-item" href="opdracht9.html">opdracht 9</a></li>
+                  <li><a class="dropdown-item" href="opdracht10.html">opdracht 10</a></li>
+                  <li><a class="dropdown-item" href="opdracht11.html">opdracht 11</a></li>
+                  <li><a class="dropdown-item" href="opdracht12.html">opdracht 12</a></li>
+                  <li><a class="dropdown-item" href="opdracht13.html">opdracht 13</a></li> 
+                </ul>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <h1 class="H1">
+        UTM downloaden.
+       </h1>  
+       <p>
+        1.
+        Download een cloud omgeving als je dat niet hebt, eentje die ik aanraad is pCloud.
+        2.
+        Vervolgens maak je in de pCloudDrive
+        Een folder genaamd cliScripts en daarin een Linux folder.
+        3.
+        Om een .txt te maken open we cli en typen we eerst het pad naar cliScripts.
+        Vervolgens type je cat &gt; cliScripts.txt en druk dan crtl+z.
+        En dan type je de 20 namen.
+        4.
+        Download het bestand, rechterklik het bestand en stuur het naar de Linux folder.
+        Vervolgens open je weer de terminal type dan het pad naar je Linux folder en type “bash
+        01makeFiles.sh”. voordat je dit kan doen moet je eerst een ../ toevoegen op regel 15 van
+        01makefiles.sh.
+        5.
+        Rechterklik 01makefiles.sh en noem het 02makeFolders.sh.
+        Verwijder vervolgens alles tussen Do en Done.
+        Vervolgens tussen de Do en Done mkdir $lastname$firstname.
+        Daaronder een echo met uitleg van wat er nu gaat gebeuren.
+        Open dan weer je terminal en type “bash 02makeFolders.sh” in de Linux folder.
+        6.
+        Noem 02makeFolders.sh naar 03moveFiles.sh.
+        Haal alles tussen Do en Done weg.
+        Zet daar mv ReadmeFor$firstname$lastname.txt $lastname$firstname, en vervolgens weer
+        een echo met wat we doen.
+        Type dan bash 03moveFiles.sh.
+        7.
+        Hernoem 03moveFiles.sh naar 04renameFolders.sh.
+        Voeg op regel 5 de variabele domainname.
+        Delete alles tussen Do en Done en zet er mv $firstname$lastname $domainname.
+        Vervolgens weer een echo met wat we doen.
+        Bash 04renameFolders.sh.
+       </p>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
